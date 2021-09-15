@@ -70,7 +70,7 @@
 			height: 0;
 			color: transparent;
 		}
-		input, textarea {border: none; border: 0; outline:0;}
+		input, textarea, #contact {border: none; border: 0; outline:0;}
 		section.contact {background: rgba(124,136,152,1);}
 		
 		/* form styles */
@@ -131,7 +131,7 @@
 			}
 			
 			.cut-short {
-			  width: 50px;
+				width: 50px;
 			}
 			
 			.cut-med {
@@ -183,7 +183,7 @@
 			}
 			
 			.submit:active {
-			  background-color: #06b;
+				/* font-size: 2em; */
 			}
 			
 			
@@ -215,7 +215,7 @@
 				<h2 id="contact" class="white">Contact Aanna</h2>
 				<div class="w-100">
 					<script type="text/javascript">var submitted=false;</script>
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/message-confirmation';}"></iframe>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/';}"></iframe>
 					<form 
 					action="https://docs.google.com/forms/d/e/1FAIpQLScsmV9-wa_szR-gD6uxItsvkvlNOl6jePYrRHQcG1e5TRD6GQ/formResponse" 
 					method="POST" 
@@ -239,7 +239,7 @@
 							<div class="cut cut-med"></div>
 							<label for="email" class="placeholder">Message</>
 						</div>
-						<button type="submit" class="submit pa1 nl1 dim">Send Message</button>
+						<button type="submit" class="submit pa1 nl1 dim">Send Message <i class="lar la-envelope"></i></button>
 					</div>
 					
 					
