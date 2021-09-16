@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title>Aanna Greer</title>
+	<meta name="description" content="Aanna Greer">
+	  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="author" content="Logan">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Polyfill to enable smoothscroll for the JavaScript APIs -->
+	<script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+	<!-- Apply the smoothscroll to anchor links -->
+	<script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+	<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<style>
+		html {
+			--scroll-behavior: smooth;
+			scroll-behavior: smooth;
+		}
+		.josefin {
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		h1, h2, h3, a, button {
+			font-weight: 600;
+		}
+		p {
+			font-weight: 300;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		.animated-header {
+			background: rgb(76,186,72);
+			background: -moz-linear-gradient(355deg, rgba(76,186,72,1) 0%, rgba(124,136,152,1) 100%);
+			background: -webkit-linear-gradient(355deg, rgba(76,186,72,1) 0%, rgba(124,136,152,1) 100%);
+			background: linear-gradient(355deg, rgba(76,186,72,1) 0%, rgba(124,136,152,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4cba48",endColorstr="#7c8898",GradientType=1);
+			
+			background-size: 150% 150%;
+			
+			-webkit-animation: AnimationName 30s ease infinite;
+			-moz-animation: AnimationName 30s ease infinite;
+			animation: AnimationName 30s ease infinite;
+			
+			min-height: 95vh;
+			}
+			
+		@-webkit-keyframes AnimationName {
+			0%{background-position:45% 0%}
+			50%{background-position:56% 100%}
+			100%{background-position:45% 0%}
+		}
+		@-moz-keyframes AnimationName {
+			0%{background-position:45% 0%}
+			50%{background-position:56% 100%}
+			100%{background-position:45% 0%}
+		}
+		@keyframes AnimationName { 
+			0%{background-position:45% 0%}
+			50%{background-position:56% 100%}
+			100%{background-position:45% 0%}
+		}
+		.hidden-title {
+			font-size: 0;
+			width: 0;
+			height: 0;
+			color: transparent;
+		}
+		input, textarea, #contact {border: none; border: 0; outline:0;}
+		section.contact {background: rgba(124,136,152,1);}
+		
+		footer {background: rgba(32,38,45,1);}
+
+	</style>
+	
+	<body class="josefin bg-white">
+		<section class="w-100 white animated-header flex justify-center items-center">
+		  	<div class="tc">
+		  		<h1 class="f-headline-ns f-5">Message sent!</h1>
+				<p>Thanks for reaching out.</p>
+				<h3><a href="/" class="bb pa1 nl1 dim"><i class="las la-arrow-left"></i> Back to aannagreer.com</a></h3>
+			</div>
+			
+		</section>
+
+		
+		<footer class="flex justify-center">
+			<div class="pv5-l pv4-m pv3 w-50-l w-60-m w-80 tc white">
+				&copy;<script>document.write( new Date().getFullYear() );</script> Aanna Greer
+			</div>
+		</footer>
+		
+	
+	</body></html>
