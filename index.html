@@ -23,7 +23,7 @@
 		.josefin {
 			font-family: 'Josefin Sans', sans-serif;
 		}
-		h2, h3, a {
+		h2, h3, a, button {
 			font-weight: 600;
 		}
 		p {
@@ -190,30 +190,32 @@
 	</style>
 	
 	<body class="w-100 josefin bg-white">
-		<section class="w-100 white animated-header">
-	  		<div class="w-90 mb5-l mb4-m mb3 db">
+		<article class="w-100 white animated-header">
+	  		<div class="w-90 mb6-l mb6-m mb5 db">
 			  <h1 class="hidden-title">Aanna</h1>
 			  <img src="img/aanna@2x.png" />
 			</div>
-			<div class="w-100 flex flex-wrap pb3">
-				<div class="w-40-m w-30-l w-80 ml6-ns ml4-m ml4 ">
-					<h2>About Aanna</h2>
-					<p>Aanna Greer is a writer, speaker, wife, and mother -- whose passion is connecting women to God and to each other.</p>
-					<h3><a href="#contact" class="bb pa1 nl1 dim">Contact <i class="las la-arrow-down"></i></a></h3>
+			<div class="flex flex-wrap justify-center">
+				<div class="w-70-l w-90-m w-100 flex flex-wrap justify-around pb3">
+					<div class="w-40-m w-30-l w-80">
+						<h2>About Aanna</h2>
+						<p>Aanna Greer is a writer, speaker, wife, and mother &mdash; whose passion is connecting women to God and to each other.</p>
+						<h3><a href="#contact" class="bb pa1 nl1 dim">Contact <i class="las la-arrow-down"></i></a></h3>
+					</div>
+					<div class="w-40-m w-30-l w-80">
+						<h2>Darling Book</h2>
+						<p>Darling offers a fresh perspective and a biblical understanding of womanhood, sexuality, and marriage. In it, you will learn to think about sex the way God does, keep your sexual desires from controlling you, prepare your body, mind and soul for sex, and create an intimate, godly and satisfying sex life with your husband.</p>
+						<h3><a href="http://bit.ly/aacartdarling" class="bb pa1 nl1 dim">More <i class="las la-external-link-alt"></i></a></h3>
+					</div>	
 				</div>
-				<div class="w-40-m w-30-l w-80 ml6-ns ml4-m ml4 ">
-					<h2>Darling Book</h2>
-					<p>Darling offers a fresh perspective and a biblical understanding of womanhood, sexuality, and marriage. In it, you will learn to think about sex the way God does, keep your sexual desires from controlling you, prepare your body, mind and soul for sex, and create an intimate, godly and satisfying sex life with your husband.</p>
-					<h3><a href="http://bit.ly/aacartdarling" class="bb pa1 nl1 dim">More <i class="las la-external-link-alt"></i></a></h3>
-				</div>	
 			</div>
 			
-		</section>
+		</article>
 
 		<section class="contact flex flex-wrap justify-center">
-			<div class="pv7-l pv6-m pv4 w-50-l w-60-m w-80">
-				<h2 id="contact" class="white">Contact Aanna</h2>
-				<div class="w-100">
+			<div class="pv6-l pv5-m pv4 w-50-l w-60-m w-80">
+				<h2 id="contact" class="white pt6-l pt5-m">Contact Aanna</h2>
+				<div class="w-100 pb6-l pb5-m">
 					<script type="text/javascript">var submitted=false;</script>
 					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/';}"></iframe>
 					<form 
@@ -241,35 +243,18 @@
 						</div>
 						<button type="submit" class="submit pa1 nl1 dim">Send Message <i class="lar la-envelope"></i></button>
 					</div>
-					
-					
-					
-					
-					
-					
-					
-						<!-- <div class="fields">
-							<div class="field">
-								<label class="b db mt2 mb2" for="name">Name</label>
-								<input class="black db w-100" type="text" name="entry.1962109541" id="name" required="true" />
-							</div>
-							<div class="field">
-								<label class="b db mt4 mb2" for="email">Email</label>
-								<input class="black db w-100" type="email" name="entry.2125584458" id="email" required="true" />
-							</div>
-							<div class="field">
-								<label class="b db mt4 mb2" for="message">Message</label>
-								<textarea class="black db w-100" name="entry.1823759850" id="message" rows="4" required="true"></textarea>
-							</div>
-						</div>
-						<ul class="actions">
-							<li><input class="" type="submit" value="Send Message" /></li>
-						</ul> -->
+
 					</form>
 				</div>
 			</div>
 
 		</section>
+		
+		<footer class="flex justify-center">
+			<div class="pv7-l pv6-m pv4 w-50-l w-60-m w-80 tc">
+				&copy;<script>document.write( new Date().getFullYear() );</script> Aanna Greer
+			</div>
+		</footer>
 		
 	
 	</body></html>
